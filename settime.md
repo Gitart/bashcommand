@@ -10,3 +10,13 @@ sudo timedatectl set-timezone Europe/Kiev
 timedatectl list-timezone
 ```
 
+Для отправки почты необходимо установить
+```bash
+sudo apt install mail
+```
+
+Команда для отправки почты
+```
+echo -e "Тело сообщения." | mail -s "Сообщение" -r "robot@system.ua" "destination@post.com"
+```
+
