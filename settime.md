@@ -16,7 +16,11 @@ sudo apt install mail
 ```
 
 Команда для отправки почты
-```
-echo -e "Тело сообщения." | mail -s "Сообщение" -r "robot@system.ua" "destination@post.com"
+```bash
+  #!/bin/bash
+  
+  NOW=$(date +"%d-%m-%Y %T") 
+  echo -e "Тело сообщения." | mail -s "Сообщение" -r "robot@system.ua" "destination@post.com"
+  echo $NOW $(date) $(hostname) 'Отправлено письмо $1' >> log.txt
 ```
 
