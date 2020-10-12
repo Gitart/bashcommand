@@ -1,3 +1,5 @@
+
+# https://qastack.ru/ubuntu/935569/how-to-completely-uninstall-docker
 #Шаг 1
 
 dpkg -l | grep -i docker
