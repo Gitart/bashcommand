@@ -57,3 +57,9 @@ sudo systemctl kill docker.socket
 # Просомтр процесса
 # systemctl list-unit-files | grep -i docker
 # ps axf | grep docker  
+
+
+# В моем случае пришлось отключить docker-volume-local-persist.serviceи docker.socketтак же. 
+# Чтобы перечислить любую службу докера в systemd, введите:systemctl list-unit-files | grep -i docker
+# Хорошо, я думаю, что мне удалось заставить его работать, после Как включить или отключить службы? :
+# sudo bash -c 'echo manual | sudo tee /etc/init/docker.override'
