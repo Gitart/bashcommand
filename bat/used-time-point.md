@@ -1,3 +1,4 @@
+```sh
 echo off@
 cd sklad
 
@@ -19,4 +20,4 @@ git push origin main
 
 echo Completed...
 pause 
-
+```
