@@ -8,5 +8,5 @@ rem *.go      mask
 rem user@...      
 
 ```
-pscp.exe -P 22 -l savchenko -pw QWErty123  *.go  user@172.25.64.16:/home/user/report/1
+pscp.exe -P 22 -l username -pw QWErty123  *.go  user@172.25.64.16:/home/user/report/1
 ```
