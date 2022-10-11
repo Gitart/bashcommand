@@ -1,7 +1,5 @@
 # Bash Scripting Tutorial
 
-4 September 2022 by [Luke Reynolds](https://linuxconfig.org/author/luke "View all posts by Luke Reynolds")
-
 The Bash shell is one of the most powerful components of a [Linux system](https://linuxconfig.org/linux-download), as well as one of the most compelling reasons to use Linux. Users can interact with Bash through the [command line](https://linuxconfig.org/linux-command-line-tutorial), and write scripts to automate tasks. Although this may sound intimidating to beginning users, it is not hard to get started with Bash scripting.
 
 Bash scripts are essentially just a sequence of the same Linux commands that you would ordinarily use every day. In this tutorial, we will take you through various examples of Bash scripts to show you what it is capable of, and how to utilize different aspects of Bash.
